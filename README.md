@@ -1,6 +1,6 @@
 # Movie Rental
 
-This source code follows Martin Fowler's book "Refactoring, Improving the Design of Existing Code".
+This source code follows Martin Fowler's book ["Refactoring, Improving the Design of Existing Code"](https://martinfowler.com/books/refactoring.html).
 
 When you find you have to add a feature to a program, and the program's code is not
 structured in a convenient way to add the feature, first refactor the program to make it
@@ -11,7 +11,7 @@ You need to build a solid set of tests for that section of code. The tests are e
 though you follow refactorings structured to avoid most of the opportunities for introducing bugs,
 you are still human and still make mistakes. Thus you need solid tests.
 
-Actualy the `statement` method prints out a simple text output of a rental statement
+Actually the `statement` method prints out a simple text output of a rental statement
 ```
 Rental Record for martin
   Ran 3.5
@@ -36,14 +36,12 @@ The purpose of this is to provide good examples for the refactoring workshop.
 
 ## Build
 
-All you need to build this project is Java 6.0 (Java SDK 1.6) or later, Maven 3.0 or later.
+All you need to build this project is Java 17 or later, Maven 3.0 or later.
 
 ## Testing
 
-Unit tests can be run using maven[1]:
+Unit tests can be run using [maven](http://maven.apache.org/):
 
     $ mvn test
 
-[1]: http://maven.apache.org/
-
-Tests are located in the test directory and run using Junit.
+Tests are located in the test directory and run using [JUnit 5](https://junit.org/junit5/).
